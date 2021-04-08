@@ -33,7 +33,7 @@ Pink noise is well-suited to balancing audio systems. This YouTube video on [Pin
 
 We need a pink noise recording with an RMS energy of -20dB.
 
-Here's a [30sec pink noise wavefile](audio/pinknoise-20dB.wav) I baked earlier.
+Here's a [30sec pink noise wavefile](audio/pinknoise-20dB.wav) I baked earlier which is also available on [Soundcloud](https://soundcloud.com/keybard/pink-noise-at-20db).
 
 Or you can bake your own...
 * [Using Audacity](create-pink-noise-audacity.md) (free, open source, cross-platform audio software)

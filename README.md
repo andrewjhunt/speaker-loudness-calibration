@@ -45,12 +45,12 @@ Or you can bake your own...
 We need a reasonably accurate measurement of sound pressure level (SPL).
 
 * Borrow or buy a Decibel meter. There are many sites that review and recommendation meters at different price points.
-* Install a [good SPL meter on your smartphone](smartphone-sound-level.md).
+* Or... Install a [good SPL meter on your smartphone](smartphone-sound-level.md).
 
 I used [SoundMeter Basic 2018](https://apps.apple.com/au/app/soundmeter-basic-2018/id1457367090) on my iPhone 11 because...
 
 1. It's free and simple
-1. The US CDC found it's measurements to be very good in [this article](https://blogs.cdc.gov/niosh-science-blog/2014/04/09/sound-apps/)
+1. The US CDC found it's measurements to be very good in [this article](https://blogs.cdc.gov/niosh-science-blog/2014/04/09/sound-apps/) (but that was a few years back and things change)
 
 The settings should be something like:
 
@@ -82,7 +82,9 @@ Target: 60dB SPL (normal conversation volume)
 
 Repeat the calibration for a range of SPL: 60dB, 65dB, 70dB, 75dB, 80dB, 85dB.
 
-Here's my calibration table. Your's will be different.
+**Note**: if you play the noise through in stereo (left+right) then the meter should read 3.0dB louder. 3.0dB is exactly double the loudness which is what to expect when you use 2 speakers.
+
+Here's my calibration table. (Your's will of course be different)
 
 | SPL | MacOS Volume |
 | --- | --- |
@@ -97,8 +99,6 @@ Here's my calibration table. Your's will be different.
 If you're on MacOS, then you can use AppleScript to record and later set your system volume. Follow these [instructions](volume-scripts.md) to create a convenient menu bar item to reliably set your system volume.
 
 ![](images/volume-scripts.png)
-
-
 
 
 ## My Setup

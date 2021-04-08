@@ -2,21 +2,25 @@
 
 Home studio sound depends upon good audio and loudness is critical to the quality.  We all like it louder but getting balanced sound is about calibration and control.
 
-Our ears hear the balance of bass-mid-high frequencies differently at different volume. Higher volumes tend to pump the bass. So, to get good mixes and masters, it's important to calibrate the loudness of you entire system -- from audio generator, through your computer, audio interface, amplifier, speakers and whatever else you might have in the chain.
+!["These go to eleven"](images/volume11.jpg)
+<br> Nigel Tufnel: _"These go to eleven"_
 
-This project provides a simple set of tools to achieve this using simple software and calibration using a mobile phone (or a proper Decibel meter if you have one).
+Our ears hear the balance of bass-mid-high frequencies differently at different volume. Higher volumes tend to pump the bass. So, to get good mixes and masters, it's important to calibrate the loudness of your entire system. That includes the audio generator, computer, audio interface, amplifier, speakers and whatever else you might have in the chain.
+
+This project provides a simple set of tools to achieve this using simple software and calibration using a mobile phone or a proper Decibel meter if you have one (I don't).
 
 This following from the blog [How Loud Should You Mix?](https://www.sweetwater.com/insync/how-loud-should-you-mix/) by Sweetwater.
 
-In the last steps I use MacOS tools to find my system volume. It would be great for somebody to submit something similar for Windows.
+In the last steps I use MacOS scripts to conveniently find and set my system volume. It would be great for somebody to submit something similar for Windows.
 
-## Steps
+## Contents
 
+1. [About pink noise](#about-pink-noise)
 1. [Create a pink noise file at -20dB](#pink-noise-file-at--20db)
-2. Loudness measurement tool (or mobile phone approximation)
-3. Measure loudness
-4. Setup loudness scripts
-5. Enjoy your calibrate sound!
+1. [Loudness measurement tool](#loudness-measurement-tool)
+1. [Measurement procedure](#measurement-procedure)
+1. [MacOS scripts](#macos-scripts)
+1. Enjoy your calibrated sound!
 
 
 ### About Pink Noise
@@ -58,15 +62,6 @@ The settings should be something like:
 ](images/SoundMeterBasic-reading.png)
 
 
-## My Setup
-
-1. My home office. It's not well padded but it's what I've got.
-1. Audio Interface: [Audient EVO 8 USB Audio](https://evo.audio/products/evo-8/overview/)
-1. Speakers: [JBL LSR305P MKII 5" Powered Studio Monitors](https://jblpro.com/products/305p-mkii) (Pair)
-1. Stand: about 120cm high with 1cm neoprene for a little isolation
-5. Calibration: [Sonarworks SoundID Reference](https://www.sonarworks.com/soundid-reference) enabled with calibration for the speakers and room
-
-
 ## Measurement Procedure
 
 First, determine how you will adjust volume. It might be the volume setting on the computer, setting for the audio interface, amplifier volume or something else in your.
@@ -97,12 +92,30 @@ Here's my calibration table. Your's will be different.
 | 80dB | 100 |
 | 85dB | my system doesn't go to 11 |
 
+## MacOS Scripts
+
 If you're on MacOS, then you can use AppleScript to record and later set your system volume. Follow these [instructions](volume-scripts.md) to create a convenient menu bar item to reliably set your system volume.
 
 ![](images/volume-scripts.png)
 
 
+
+
+## My Setup
+
+It's basic but it works
+
+1. My home office. It's not well padded but it's what I've got.
+1. MacBook Pro 13" 2020 model (before the M1)
+1. Audio Interface: [Audient EVO 8 USB Audio](https://evo.audio/products/evo-8/overview/)
+1. Speakers: [JBL LSR305P MKII 5" Powered Studio Monitors](https://jblpro.com/products/305p-mkii) (Pair)
+1. Stand: about 120cm high with 1cm neoprene for a little isolation
+1. Calibration: [Sonarworks SoundID Reference](https://www.sonarworks.com/soundid-reference) enabled with calibration for the speakers and room
+
+
 ## References
 
 * Wikipedia: [Pink noise](https://en.wikipedia.org/wiki/Pink_noise)
+* YouTube: [Pink Noise vs. White Noise](https://www.youtube.com/watch?v=yewKyMgd1Xk)
 * Sweetwater: [How Loud Should You Mix?](https://www.sweetwater.com/insync/how-loud-should-you-mix/)
+* Center for Disease Control: [So How Accurate Are These Smartphone Sound Measurement Apps?](https://blogs.cdc.gov/niosh-science-blog/2014/04/09/sound-apps/)
